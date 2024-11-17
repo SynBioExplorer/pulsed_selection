@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define paths and filenames
-WORKDIR="/Volumes/Felix_SSD/PhD/Sequencing_Pulse_selection/N2413980_30-1043295145_Reseq_2024-08-01/raw_data/final"
+WORKDIR="/enter/your/workdir/path"
 ANALYSIS_DIR="$WORKDIR/analysis"
 REFERENCE="$WORKDIR/BY4742_pRS416.fasta"
-SNPEFF_DIR="/Users/MQ46079823/snpEff"
+SNPEFF_DIR="/Users/xxx/snpEff"
 export JAVA_HOME="/opt/homebrew/opt/openjdk@21"
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
 
